@@ -40,7 +40,7 @@ while True:
                 print('Tên: ' + student["name"] + ' - Điểm:' + str(student["score"]))
     elif choice == "3":
         name = input("Nhập tên học sinh cần tìm: ")
-        name = name.lower()
+        name = name.lower().strip()
         found = False
         for student in students:
             found_student = student["name"].lower()
