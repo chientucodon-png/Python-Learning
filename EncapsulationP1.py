@@ -10,7 +10,7 @@ class BankAccount:
         print(f'Tên: {self.owner}\nSố dư: {self.__balance}')
 
     def deposit(self, amount):
-        if amount >= 0:
+        if amount > 0:
             self.__balance += amount
             print('Nạp tiền thành công!')
         else:
@@ -28,4 +28,3 @@ acc_1.deposit(500)
 acc_1.withdraw(300)
 acc_1.withdraw(5000)
 acc_1.show_info()
-                  
