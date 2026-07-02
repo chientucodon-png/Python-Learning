@@ -138,7 +138,7 @@ class TextBook(Book):
         print(f'Môn học: {self.subject}')
 
 n1 = Novel("Cổ Chân Nhân", "Cổ Chân Nhân", "Huyền huyễn")
-c1 = Comic("Chiêu Hồng Nguyệt", "Phạm Minh Khai", "Tiên hiệp")
+c1 = Comic("Chiêu Hồng Nguyệt", "Phạm Minh Khai", "Phạm Minh Khai")
 t1 = TextBook("Sách vật lí 12", "NXB Long Châu", "Vật lí")
 books = [n1, c1, t1]
 stt = 1
